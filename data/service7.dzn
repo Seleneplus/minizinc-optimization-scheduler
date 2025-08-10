@@ -1,0 +1,22 @@
+endtime = 32;
+SERVICE = anon_enum(32);
+start =     [ i-1 | i in 1..32 ];
+end   =     [ i | i in 1..32 ];
+STYPE = { All };
+stype =  [ All | i in 1..32 ]; 
+
+TRUCK = { DD, T1, T2, T3  };
+dtruck = DD;
+ttype = [ DUMMY, SML, SML, MED ];
+maxsty = [1,2,3,0];
+
+maxmaint = 8;
+maintdur = [0,1,2,3];
+maxsep = [ 0,2,5,0 ];
+
+minwork = 30;
+minservice = 100;
+
+majorwork = 25;
+prework = [ 0, 0, 0, 0 ];
+

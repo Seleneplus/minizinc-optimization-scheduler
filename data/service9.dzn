@@ -1,0 +1,21 @@
+endtime = 50;
+SERVICE = { S1, S2, S3, S4, S5, S6, S7, S8, S9, S10 };
+start =     [0,  10, 20, 30, 40,  0,  10, 20, 30,  40];
+end   =     [10, 20, 30, 40, 50,  10,  20, 30, 40,  50];
+STYPE = { Gas, Refit, Roof, Solar };
+stype =  [ Gas, Refit, Roof, Gas, Solar, Solar, Refit, Roof, Gas, Refit ];
+TRUCK = { DD, T1,  T2,  T3  };
+dtruck = DD;
+ttype = [ DUMMY, SML, LRG, MED ];
+maxsty = [1,2,3,0];
+
+maxmaint = 4;
+maintdur = [0,1,3,5];
+maxsep = [ 0,25,30, 0 ];
+
+minwork = 30;
+minservice = 70;
+
+majorwork = 15;
+prework = [ 0, 0, 0, 10  ];
+
